@@ -4,7 +4,7 @@ var
   str: string;
     i: Integer;
 begin
-  Write('Введите число: ');
+  Write('Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ');
   Read(str);
   if (Length(str) < 3) then
     Write('NO')
@@ -61,6 +61,6 @@ end;
 Begin
   Inspection;
   Writeln();
-  Writeln('Числа из множества A:');
+  Writeln('Р§РёСЃР»Р° РёР· РјРЅРѕР¶РµСЃС‚РІР° A:');
   Conclusion;
 End.
