@@ -5,7 +5,7 @@ var
     i: Integer;
     f: Boolean;
 begin
-  Write('Введите число: ');
+  Write('Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ');
   Readln(str);
   f := True;
   if Length(str) = 0 then
@@ -89,6 +89,6 @@ end;
 Begin
   Inspection;
   Writeln();
-  Writeln('Числа из множества B:');
+  Writeln('Р§РёСЃР»Р° РёР· РјРЅРѕР¶РµСЃС‚РІР° B:');
   Conclusion;
 End.
