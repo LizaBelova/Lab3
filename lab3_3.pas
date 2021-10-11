@@ -4,7 +4,7 @@ var
   c, i: Integer;
      f: Boolean;
 begin
-  Write('Введите число: ');
+  Write('Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ');
   Readln(c);
   f := True;
   if (c < 2) then
@@ -49,6 +49,6 @@ end;
 Begin
   Inspection;
   Writeln();
-  Writeln('Числа из множества C:');
+  Writeln('Р§РёСЃР»Р° РёР· РјРЅРѕР¶РµСЃС‚РІР° C:');
   Conclusion;
 End.
